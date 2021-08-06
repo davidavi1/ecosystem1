@@ -1,0 +1,327 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sublime project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'styles/main_styles.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'styles/responsive.css' %}" type="text/css">
+	<link rel="stylesheet" href="{% static 'styles/mycss.css' %}" type="text/css">
+
+
+
+</head>
+<body>
+
+{% include 'include/header.html' %}
+
+{% block content %}
+
+<div class="super_container">
+
+
+
+	<!-- Home -->
+	<div class="home">
+		<div class="home_slider_container">
+
+			<!-- Home Slider -->
+			<div class="owl-carousel owl-theme home_slider">
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background " style="background-image:url(/static/images/buh1.jpg)"></div>
+					<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+										<div class="home_slider_title" style="color:#000000">Бухгалтерия</div>
+										
+										<div class="button button_light home_button" style="color:#000000"><a href="category/3" style="color:#000000">Ознакомиться</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background " style="background-image:url(/static/images/mar1.jpg)"></div>
+					<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+										<div class="home_slider_title" style="color:#000000">Маркетинг</div>
+										
+
+										<div class="button button_light home_button" style="color:#000000"><a href="category/5" style="color:#000000">Ознакомиться</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(/static/images/hr1.jpg)"></div>
+					<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+										<div class="home_slider_title" style="color:#000000">HR</div>
+										
+										<div class="button button_light home_button" style="color:#000000"><a href="category/6" style="color:#000000">Ознакомиться</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background" style="background-image:url(/static/images/gruz1.jpg)"></div>
+					<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+										<div class="home_slider_title" style="color:#000000">Грузоперевозки</div>
+										
+										<div class="button button_light home_button" style="color:#000000"><a href="category/4" style="color:#000000">Ознакомиться</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background " style="background-image:url(/static/images/your1.jpg)"></div>
+					<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+										<div class="home_slider_title" style="color:#000000">Юридические услуги</div>
+										
+
+										<div class="button button_light home_button"><a href="category/2" style="color:#000000">Ознакомиться</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slider Item -->
+				<div class="owl-item home_slider_item">
+					<div class="home_slider_background " style="background-image:url(/static/images/kur1.jpg)"></div>
+					<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content"  data-animation-in="fadeIn" data-animation-out="animate-out fadeOut">
+										<div class="home_slider_title" style="color:#000000">Курьерская служба</div>
+										
+										<div class="button button_light home_button" style="color:#000000"><a href="category/1" style="color:#000000">Ознакомиться</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+        </div>
+			<!-- Home Slider Dots -->
+
+			<div class="home_slider_dots_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_slider_dots">
+								<ul id="home_slider_custom_dots" class="home_slider_custom_dots">
+									<li class="home_slider_custom_dot active">01.</li>
+									<li class="home_slider_custom_dot">02.</li>
+									<li class="home_slider_custom_dot">03.</li>
+									<li class="home_slider_custom_dot">04.</li>
+									<li class="home_slider_custom_dot">05.</li>
+									<li class="home_slider_custom_dot">06.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Ads -->
+
+	
+    
+    <!-- Ads -->
+
+	
+
+	<!-- Products -->
+
+	<div class="products">
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col">
+
+					<div class="product_grid">
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- Ad -->
+
+	<div class="container">
+		<p align="center"><img src="/static/images/5pri.jpg"></p>
+        <h2 class="section__title" align="center">Обслуживание по Казахстану</h2>
+    </div>
+    <div class="container">
+        <h2 class="section__title" align="center">Полная конфиденциальность</h2>
+    </div>
+    <div class="container">
+        <h2 class="section__title" align="center">Опыт наших специалистов</h2>
+    </div>
+    <div class="container">
+        <h2 class="section__title" align="center">Фиксированная стоимость услуг</h2>
+    </div>
+    <div class="container">
+        <h2 class="section__title" align="center">Выгодные условия и низкие издержки</h2>
+    </div>
+
+	<!-- Icon Boxes -->
+
+	<div class="icon_boxes">
+		<div class="container">
+			<div class="row icon_box_row">
+
+				<!-- Icon Box -->
+				<div class="col-lg-4 icon_box_col">
+					<div class="icon_box">
+						<div class="icon_box_image"><img src="/static/images/icon_1.svg" alt=""></div>
+						<div class="icon_box_title">Моментальное предоставление услуг</div>
+						<div class="icon_box_text">
+							<p>Команда Centras Ecosystem быстро и оперативно подберет удовлетворяющего вашим ожиданиям специалиста.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-lg-4 icon_box_col">
+					<div class="icon_box">
+						<div class="icon_box_image"><img src="/static/images/icon_2.svg" alt=""></div>
+						<div class="icon_box_title">Оформление договора</div>
+						<div class="icon_box_text">
+							<p>Если вы предоставляете услуги в сфере малого и среднего бизнеса, вы можете оформить договор с Сentras Ecosystem на выгодых условиях.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Icon Box -->
+				<div class="col-lg-4 icon_box_col">
+					<div class="icon_box">
+						<div class="icon_box_image"><img src="/static/images/icon_3.svg" alt=""></div>
+						<div class="icon_box_title">24/7 Обратная Связь</div>
+						<div class="icon_box_text">
+							<p>Вы можете в любое время связаться с техподдержкой и получить ответ на любой ваш вопрос.</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Newsletter -->
+
+	<div class="newsletter">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="newsletter_border"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<div class="newsletter_content text-center">
+						<div class="newsletter_title">Связаться с нами</div>
+						<div class="newsletter_text"><p>Хотите связаться с нами? Задать вопрос или предложить сотрудничество? Оставьте ваши контакты и мы с вами свяжемся.</p></div>
+						<div class="newsletter_form_container">
+							<form action="{% url 'feedback' %}" id="newsletter_form" class="newsletter_form">
+								<button class="newsletter_button trans_200"><span>Связаться</span></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+
+{% endblock content %}
+
+
+{% include 'include/footer.html' %}
+
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+
+<script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
+
+<script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
+
+<script src="{% static 'plugins/greensock/TweenMax.min.js' %}"></script>
+
+<script src="{% static 'plugins/greensock/TimelineMax.min.js' %}"></script>
+
+<script src="{% static 'plugins/scrollmagic/ScrollMagic.min.js' %}"></script>
+
+<script src="{% static 'plugins/greensock/animation.gsap.min.js' %}"></script>
+
+<script src="{% static 'plugins/greensock/ScrollToPlugin.min.js' %}"></script>
+
+<script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+
+<script src="{% static 'plugins/Isotope/isotope.pkgd.min.js' %}"></script>
+
+<script src="{% static 'plugins/easing/easing.js' %}"></script>
+
+<script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+
+<script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>

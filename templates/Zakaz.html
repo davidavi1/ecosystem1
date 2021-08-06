@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<center>
+    <div class="container">
+
+    <div class="h3 zakaz">Заполните заявку или напишите нам в одну из соц. сетей
+
+ </div>
+        <form method="post" class="">
+            {% csrf_token %}
+            <div class="myform h6">{{form}}</div>
+            <input type="button" value="Заказать услугу" onClick='location.href="http://127.0.0.1:8000/8"'>
+        </form>
+
+    </div>
+
+
+</center>
+
+{% endblock content %}
