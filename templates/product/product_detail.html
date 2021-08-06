@@ -1,0 +1,62 @@
+{% extends 'base_product.html' %}
+
+{% block content %}
+
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_container">
+			<div class="home_background" style="background-image:url(/static/images/21.jpg)"></div>
+			<div class="home_content_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="home_content">
+								<div class="home_title">{{detail.title}}<span>.</span></div>
+								<div class="home_text"><p><h3>{{detail.description}}</h3></p></div>
+<div class="button button_light home_button"><a href="{% url 'buy' detail.pk %}">Заказать</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Products -->
+
+	<div class="products">
+		<center><h3><font color="black"><strong>Похожие товары:</strong></font></h3></center>
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col">
+
+					<div class="product_grid">
+
+						<!-- Product -->
+{% for i in product %}
+						<div class="product">
+
+							<div class="product_image"><img src='{{i.image.url}}' alt=""></div>
+							<!--<div class="product_extra product_new"><a href="categories.html">{{i.category}}</a></div>-->
+							<div class="product_content">
+								<div class="product_title"><a href="{% url 'detail' i.pk %}">{{i.title}}</a></div>
+								<div class="product_price">{{i.price}}.00тг</div>
+
+
+							</div>
+
+						</div>
+{% endfor %}
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	</div>
+{% endblock content %}
